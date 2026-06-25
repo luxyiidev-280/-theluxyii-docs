@@ -298,23 +298,6 @@ Ele pode avisar sobre:
 
 Esses avisos são heurísticos. Eles ajudam no diagnóstico, mas não substituem auditoria manual.
 
-## Publicação no NPM
-
-Antes de publicar, confira o nome do pacote em `package.json`:
-
-```json
-{
-  "name": "@theluxyi/docs",
-  "license": "MIT"
-}
-```
-
-Para pacote público com escopo:
-
-```bash
-npm publish --access public
-```
-
 ## Licença
 
 MIT License.
