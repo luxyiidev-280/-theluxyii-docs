@@ -1,0 +1,39 @@
+{
+  "name": "@theluxyi/docs",
+  "version": "1.0.0",
+  "description": "Módulo universal para gerar informações, documentação e diagnóstico de bots WhatsApp em Node.js.",
+  "main": "index.js",
+  "bin": {
+    "luxdocs": "./cli.js"
+  },
+  "scripts": {
+    "test": "node cli.js scan .",
+    "scan": "node cli.js scan .",
+    "commands": "node cli.js commands .",
+    "diagnose": "node cli.js diagnose ."
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "docs",
+    "documentation",
+    "infos",
+    "diagnostic",
+    "scanner",
+    "theluxyi"
+  ],
+  "author": "The Luxyii",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
